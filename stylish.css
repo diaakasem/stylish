@@ -1,0 +1,67 @@
+
+Feedly
+REGEX : .*.feedly.com/.*
+
+.quicklistHandle, .sourceInfo{ 
+display: none !important; 
+} 
+
+
+
+Selection Color
+EVERYTHING
+
+*:selection {
+  background: #323232;
+    color: #fefefe;
+}
+*::selection {
+  background: #323232;
+    color: #fefefe;
+}
+*::-moz-selection {
+  background: #323232;
+    color: #fefefe;
+}
+
+
+Veoh
+URLs Starting With : http://www.veoh.com/watch
+#videoToolsContainer{
+  display: none;
+}
+
+
+
+
+AngularJS Docs
+URLs Starting With : http://www.veoh.com/watch
+body {
+    color: #D4D4D4;
+    background-color: #282828;
+}
+.span3 {
+    display: none;
+}
+.span9 {
+    width: 100%;
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #323232;
+}
+ul.methods > li, ul.properties > li, ul.events > li {
+    color: black;
+}
+
+
+
+Readability
+URLs starting with : https://www.readability.com/articles
+p {
+    color: #8cd9d9;
+}
+p a{
+    color: #8cd9d9 !important;
+    text-decoration: none !important;
+}
